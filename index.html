@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="gb2312">
+    <title>Title</title>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css?v4">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/kaoyan_2018new.js"></script>
+    <script>
+        function pgScale(){
+            var deviceWidth = document.documentElement.clientWidth;
+                if(deviceWidth > 720) deviceWidth = 720;
+            document.documentElement.style.fontSize = deviceWidth / 7.2 + 'px';
+        }
+        pgScale();
+        window.onresize=pgScale;
+    </script>
+</head>
+<body>
+<div class="zg-wrap">
+    <!--头部-->
+    <div class="zg_kyheader clear">
+        <h1>
+            <a href="http://wap.kaoyan365.cn/" title="中公考研">
+                <img src="images/logo.jpg" alt="中公考研">
+            </a>
+        </h1>
+        <p class="zg_kyhead_phone">
+            <a href="">抢先机 冲名校</a>
+            <a href="tel:400-6300-966">4006-300-966</a>
+        </p>
+        <div class="zg_kyhead_nav">
+            <em>&nbsp;</em>
+            <div class="zg_kyhead_navwrap">
+                <ul class="zg_kyhead_btnbox">
+                    <li>
+                        <a style="color: #e62929;" href="http://wap.kaoyan365.cn/">返回首页</a>
+                    </li>
+                    <li class="zg_kyhead_btn act1">
+                        <a href="javascript:;">研招信息</a>
+                    </li>
+                    <li class="zg_kyhead_btn">
+                        <a href="javascript:;">考试科目</a>
+                    </li>
+                    <li class="zg_kyhead_btn">
+                        <a href="javascript:;">备考信息</a>
+                    </li>
+                    <li class="zg_kyhead_btn">
+                        <a href="javascript:;">新闻信息</a>
+                    </li>
+                    <li class="zg_kyhead_btn">
+                        <a href="javascript:;">辅助课程</a>
+                    </li>
+                </ul>
+                <ul class="zg_kyhead_show" style="display: block;">
+                    <li><a href="http://wap.kaoyan365.cn/fushi/">考研复试</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/kaoyantiaoji/">考研调剂</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/zhaojian/">招生简章</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/mulu/">招生目录</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/shumu/">考试书目</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/tuimian/">推免生</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/fenshuxian/">分数线</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/chafen/">查分</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/baolubi/">报录比</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/paiming/">院校排名</a></li>
+                </ul>
+                <ul class="zg_kyhead_show">
+                    <li><a href="http://wap.kaoyan365.cn/shuxue/">考研数学</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/zhengzhi/">考研政治</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/yingyu/">考研英语</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/liankao/">联考综合</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/kyzyk/">考研专业课</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/kyzs/">考研专硕</a></li>
+                </ul>
+                <ul class="zg_kyhead_show">
+                    <li><a href="http://wap.kaoyan365.cn/beikao/">备考手册</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/gonglue/">报考攻略</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/zhengce/">招生政策</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/zhinan/">考试指南</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/changshi/">考研常识</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/jingyan/">经验分享</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/zexiao/">择校择专业</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/dagang/">考研大纲</a></li>
+                </ul>
+                <ul class="zg_kyhead_show">
+                    <li><a href="http://wap.kaoyan365.cn/dongtai/">考试动态</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/jiuye/">就业信息</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/xinwen/">企业新闻</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/huodong/">最新活动</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/huati/">考研话题</a></li>
+                    <li><a href="http://wap.kaoyan365.cn/tongzhishu/">录取通知书</a></li>
+                </ul>
+                <ul class="zg_kyhead_show">
+                    <li><a href="http://m.kaoyan365.cn/">魔鬼集训营</a></li>
+                    <li><a href="http://e.kaoyan365.cn/">考研网课</a></li>
+                    <li><a href="http://m.kaoyan365.cn/1v1/">VIP1对1</a></li>
+                    <li><a href="http://e.kaoyan365.cn/zhibo/">直播课堂</a></li>
+                    <li><a href="http://lx.kaoyan365.cn/">乐学系列</a></li>
+                    <li><a href="http://www.kaoyan365.cn/baoyan/">保研课程</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--banner-->
+    <div class="zg_kybanner">
+        <div class="swiper-container" id="swiper-banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="">
+                        <img src="images/ban01.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <img src="images/ban01.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <img src="images/ban01.jpg" alt="">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <img src="images/ban01.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+        <script>
+            new Swiper('#swiper-banner',{
+                pagination:'.swiper-pagination',
+                paginationClickable:true,
+                loop:true,
+                autoplay:2000,
+                autoplayDisableOnInteraction : false,
+            });
+        </script>
+    </div>
+
+    <!--nav-->
+    <div class="zg_kynav">
+        <ul>
+            <li>
+                <a href="http://e.kaoyan365.cn/zt/lexue/">
+                    <img src="images/n1.png" alt="">
+                    <span>大三协议班</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://lx.kaoyan365.cn/">
+                    <img src="images/n2.png" alt="">
+                    <span>周末面授</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://e.kaoyan365.cn/">
+                    <img src="images/n3.png" alt="">
+                    <span>考研网课</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://mg.kaoyan365.cn/baoyan/">
+                    <img src="images/n4.png" alt="">
+                    <span>保研夏令营</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://e.kaoyan365.cn/zt/zaizhi/">
+                    <img src="images/n5.png" alt="">
+                    <span>在职考研</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://mg.kaoyan365.cn/bannian/">
+                    <img src="images/n6.png" alt="">
+                    <span>全年集训</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://mg.kaoyan365.cn/bannian/">
+                    <img src="images/n7.png" alt="">
+                    <span>半年集训营</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://mg.kaoyan365.cn/erzhan/">
+                    <img src="images/n8.png" alt="">
+                    <span>二战集训</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://mg.kaoyan365.cn/zhuanyeke/">
+                    <img src="images/n9.png" alt="">
+                    <span>专业课1V1</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://wap.kaoyan365.cn/zt/2018tushu/">
+                    <img src="images/n10.png" alt="">
+                    <span>考研图书</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!--倒计时-->
+    <div class="zg_kytimer">
+        <p class="timer_show">
+            距离2019考研初试还有<strong id="timer">232</strong>天！除了努力，你别无选择
+        </p>
+        <div class="zg_kytt">
+            <p>
+                <img src="images/m2.png" alt="考研头条">
+            </p>
+            <div class="zg_kytt_show" id="zg_kytt_show">
+                <ul>
+                    <li>
+                        <span>调剂</span>
+                        <a href="">1调剂系统开通时间3月23日至4月30系统开通时间</a>
+                    </li>
+                    <li>
+                        <span>资讯</span>
+                        <a href="">2年考研国家线公布（附分数线涨幅对比图）</a>
+                    </li>
+                    <li>
+                        <span>调剂</span>
+                        <a href="">3调剂系统开通时间3月23日至4月30系统开通时间</a>
+                    </li>
+                    <li>
+                        <span>资讯</span>
+                        <a href="">4年考研国家线公布（附分数线涨幅对比图）</a>
+                    </li>
+                </ul>
+            </div>
+            <script>
+                window.onload=function () {
+                    var oBox=document.getElementById('zg_kytt_show');
+                    var oUl=oBox.getElementsByTagName('ul')[0];
+                    oUl.innerHTML+=oUl.innerHTML;
+
+
+                    var oT=document.getElementById('timer');
+
+                    var oDate=new Date();
+
+                    oDate.setFullYear(2018,11,22);
+
+                    oDate.setHours(24,0,0,0);
+
+                    var future=oDate.getTime();
+
+                    var oDate=new Date();
+
+                    var now=oDate.getTime();
+
+                    var s=parseInt((future-now)/1000);
+
+                    //转化成天
+
+                    var d=parseInt(s/86400);
+
+                    oT.innerHTML=d;
+                }
+            </script>
+        </div>
+    </div>
+
+    <!--今日推荐-->
+    <div class="zg_cont">
+        <div class="zg_kytit zg_kytit01">
+            <b>今日推荐</b>
+            <a href="http://wap.kaoyan365.cn/dongtai/">更多</a>
+        </div>
+
+        <div class="zg_kyzt">
+            <a href="">
+                <img src="images/m3.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="images/m3.jpg" alt="">
+            </a>
+        </div>
+        <div class="zg_kytj">
+            <p>
+                <a href="">政治大纲解析</a>
+                <span>|</span>
+                <a href="">管综大纲解析</a>
+                <span>|</span>
+                <a href="">英语大纲解析</a>
+            </p>
+            <p>
+                <a href="">政治大纲解析</a>
+                <span>|</span>
+                <a href="">专业课大纲解析专业课</a>
+                <span>|</span>
+                <a href="">英语大纲解析</a>
+            </p>
+        </div>
+        <ul class="zg_kyxx">
+            <li>
+                <span>院校</span>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+            </li>
+            <li>
+                <span>院校</span>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+            </li>
+            <li style="border-bottom: none;">
+                <span>院校</span>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--考研资讯-->
+    <div class="zg_cont">
+        <div class="zg_kytit zg_kytit02">
+            <b>考研资讯</b>
+            <a href="http://www.kaoyan365.cn/gonglue/">更多</a>
+        </div>
+        <div class="zg_kyzt">
+            <a href="">
+                <img src="images/m3.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="images/m3.jpg" alt="">
+            </a>
+        </div>
+        <div class="btn_box btn_box1 clear">
+            <span class="act2">考研调剂</span>
+            <span>考研复试</span>
+            <span>分数线</span>
+            <span>考试动态</span>
+        </div>
+        <ul class="show_box show_box1" style="display: block;">
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li class="act3">
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+        </ul>
+        <ul class="show_box show_box1">
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总询</a>
+                <span>3-26</span>
+            </li>
+            <li class="act3">
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+        </ul>
+        <ul class="show_box show_box1">
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li class="act3">
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+        </ul>
+        <ul class="show_box show_box1">
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总询</a>
+                <span>3-26</span>
+            </li>
+            <li class="act3">
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+        </ul>
+    </div>
+
+    <!--考研公共课-->
+    <div class="zg_cont">
+        <div class="zg_kytit zg_kytit03">
+            <b>考研公共课</b>
+            <a href="http://e.kaoyan365.cn/list-34/">更多</a>
+        </div>
+        <div class="zg_kyzt">
+            <a href="">
+                <img src="images/m3.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="images/m3.jpg" alt="">
+            </a>
+        </div>
+        <div class="btn_box btn_box2 clear">
+            <span class="act2">考研英语</span>
+            <span>考研数学</span>
+            <span>考研政治</span>
+            <span>联考综合</span>
+        </div>
+        <ul class="show_box show_box2" style="display: block;">
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li class="act3">
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+        </ul>
+        <ul class="show_box show_box2">
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总询</a>
+                <span>3-26</span>
+            </li>
+            <li class="act3">
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+        </ul>
+        <ul class="show_box show_box2">
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li class="act3">
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+                <span>3-26</span>
+            </li>
+        </ul>
+        <ul class="show_box show_box2">
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总询</a>
+                <span>3-26</span>
+            </li>
+            <li class="act3">
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+            <li>
+                <a href="">各大院校2018年招收推免生公告汇总</a>
+                <span>3-26</span>
+            </li>
+        </ul>
+    </div>
+
+    <!--考研专业课-->
+    <div class="zg_cont">
+        <div class="zg_kytit zg_kytit04">
+            <b>考研专业课</b>
+            <a href="http://e.kaoyan365.cn/list-35/">更多</a>
+        </div>
+        <div class="zg_kyzt">
+            <a href="">
+                <img src="images/m3.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="images/m3.jpg" alt="">
+            </a>
+        </div>
+
+        <h2 class="zg_kytit2">复习指导</h2>
+        <ul class="zg_cont04_main1">
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+            </li>
+            <li class="act4">
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+            </li>
+            <li>
+                <a href="">2018各院校研究生招生简章、目录、参考书查询</a>
+            </li>
+        </ul>
+
+        <h2 class="zg_kytit2">考研学硕</h2>
+        <div class="zg_cont04_main2">
+            <a href="">经济学</a>
+            <span>|</span>
+            <a href="">心理学</a>
+            <span>|</span>
+            <a href="">医学</a>
+            <span>|</span>
+            <a href="">法学</a>
+            <a href="">教育学</a>
+            <span>|</span>
+            <a href="">管理学</a>
+            <span>|</span>
+            <a href="">新闻传播学</a>
+            <span>|</span>
+            <a href="">艺术学</a>
+            <a href="">计算机</a>
+            <span>|</span>
+            <a href="">更多</a>
+        </div>
+
+        <h2 class="zg_kytit2">考研专硕</h2>
+        <div class="zg_cont04_main2" style="margin-bottom: 0.25rem;">
+            <a href="">会计硕士</a>
+            <span>|</span>
+            <a href="">金融硕士</a>
+            <span>|</span>
+            <a href="">翻译硕士</a>
+            <span>|</span>
+            <a href="">艺术硕士</a>
+            <a href="">新闻传播</a>
+            <span>|</span>
+            <a href="">更多</a>
+        </div>
+    </div>
+
+    <!--研友互动-->
+    <div class="zg_kyinter">
+        <p>找研友</p>
+        <p class="inter_box">
+            <a href="">
+                <img src="images/y1.png" alt="">
+                <span>找研友</span>
+            </a>
+            <a id="wx_open" href="javascript:;">
+                <img src="images/y2.png" alt="">
+                <span>关注微信</span>
+            </a>
+            <a id="wb_open" href="javascript:;">
+                <img src="images/y4.png" alt="">
+                <span>关注微博</span>
+            </a>
+            <a href="">
+                <img src="images/y4.png" alt="">
+                <span>咨询大咖</span>
+            </a>
+        </p>
+    </div>
+
+    <div class="zg_kynj">
+        <a href="http://www.kaoyan365.cn/zhuanti/xnzx.html">
+            <img src="images/d1.jpg" alt="">
+        </a>
+        <a href="http://e.kaoyan365.cn/zt/lexue/">
+            <img src="images/d2.jpg" alt="">
+        </a>
+        <a href="http://www.kaoyan365.cn/zhuanti/xnzx.html">
+            <img src="images/d3.jpg" alt="">
+        </a>
+        <a href="http://e.kaoyan365.cn/zt/zaizhi/">
+            <img src="images/d4.jpg" alt="">
+        </a>
+        <a href="http://wap.kaoyan365.cn/zt/zksky/">
+            <img src="images/d5.jpg" alt="">
+        </a>
+        <a href="http://mg.kaoyan365.cn/erzhan/">
+            <img src="images/d6.jpg" alt="">
+        </a>
+    </div>
+
+    <div class="zg_cont">
+        <h2 class="zg_kytit2">考研备考</h2>
+        <div class="zg_cont07_main">
+            <a href="">政治全年复习规划</a>
+            <span>|</span>
+            <a href="" style="width: 2.18rem;">英语全年复习规划</a>
+            <span>|</span>
+            <a href="">数学全年复习规划</a>
+
+            <a href="">研究生奖助学金</a>
+            <span>|</span>
+            <a href="" style="width: 2.18rem;">专科生考研备考</a>
+            <span>|</span>
+            <a href="">考研人群调查</a>
+        </div>
+        <h2 class="zg_kytit2">考研干货</h2>
+        <div class="zg_cont07_main" style="margin-bottom: 0.25rem;">
+            <a href="">考研择校择专业</a>
+            <span>|</span>
+            <a href="" style="width: 2.18rem;">考研备考经验</a>
+            <span>|</span>
+            <a href="">2018考研日历</a>
+
+            <a href="">研究生奖助学金</a>
+            <span>|</span>
+            <a href="" style="width: 2.18rem;">研究生奖助学金</a>
+            <span>|</span>
+            <a href="">考研人群调查</a>
+        </div>
+    </div>
+
+    <!--foot-->
+    <div class="foot">
+        <a href="http://www.kaoyan365.cn/about/dashiji.html" title="">关于中公考研</a><span>|</span>
+        <a href="http://www.kaoyan365.cn/" title="">电脑端</a><span>|</span>
+        <a href="http://wap.kaoyan365.cn/" title="" target="_blank">返回首页</a>
+        <p>地址：北京市海淀区学清路23号汉华世纪大厦B座</p>
+        <p>Copyright?1999-2017 北京中公教育科技股份公司.All Rights Reserved</p>
+    </div>
+
+    <div class="fixed">
+        <div>
+            <a href="http://www.kaoyan365.cn/zhuanti/xnzx.html">
+                <img id="zx" src="images/m5-0.png" style="width: 0.46rem;" alt="">
+                <span>咨询</span>
+            </a>
+            <a href="tel:400-6300-966">
+                <img src="images/m6.png" style="width: 0.37rem;" alt="">
+                <span>来电</span>
+            </a>
+            <a id="zg_kyappo" href="javascript:;">
+                <img src="images/m7.png" style="width: 0.45rem;" alt="">
+                <span>预约</span>
+            </a>
+            <a href="http://mg.kaoyan365.cn/">
+                <img src="images/m8.png" style="width: 0.36rem;" alt="">
+                <span>课程</span>
+            </a>
+            <a href="http://wap.kaoyan365.cn/zhuanti/qq/">
+                <img src="images/m9.png" style="width: 0.48rem;" alt="">
+                <span>互动</span>
+            </a>
+        </div>
+    </div>
+
+    <!--蒙板-->
+    <p class="mask">&nbsp;</p>
+    <!--微信二维码框-->
+    <div class="zg_wxtk">
+        <div class="wx_cont">
+            <b>关注我们微信</b>
+            <img src="images/wx.png" alt="">
+            <p>
+                搜索关键字:<b>中公考研</b><br>
+                或者微信号:<b>zgkaoyan365</b>
+            </p>
+        </div>
+        <div id="wx_close">
+            <img src="images/close.png" alt="">
+        </div>
+    </div>
+    <!--微博二维码-->
+    <div class="zg_wbtk">
+        <em>&nbsp;</em>
+        <img src="images/wb.png" alt="">
+    </div>
+
+    <!--预约框-->
+    <div class="zg_kyappo">
+        <em>&nbsp;</em>
+        <form action="">
+            <select>
+                <option value="省份">省份</option>
+                <option value="北京">北京</option>
+                <option value="上海">上海</option>
+            </select>
+            <select>
+                <option value="地市">地市</option>
+                <option value="北京">北京</option>
+                <option value="上海">上海</option>
+            </select>
+            <input type="text" placeholder="姓名">
+            <input type="text" placeholder="电话">
+            <input type="text" placeholder="院校">
+            <input type="text" placeholder="专业">
+            <button>抢名额</button>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>

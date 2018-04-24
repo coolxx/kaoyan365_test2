@@ -1,0 +1,187 @@
+.foot{
+    background: #fff;
+    color: #c3c3c3;
+    text-align: center;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+    padding: 0.4rem 0 1.42rem;
+    margin-top: 0.16rem;
+}
+.foot a{
+    color: #999;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+}
+.foot span{
+    color: #c3c3c3;
+    margin: 0 0.1rem;
+}
+.foot p{
+    margin-top: 0.2rem;
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    width: 7.2rem;
+    height: 1rem;
+    border-top: 0.02rem solid #e1e2e1;
+    background: #fff;
+    z-index: 99;
+}
+.fixed div{
+    width: 7rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.fixed a{
+    float: left;
+    margin-top: 0.16rem;
+    width: 1.4rem;
+    text-align: center;
+    font-size: 0;
+}
+.fixed a img{
+    display: block;
+    margin-left: 0.48rem;
+}
+.fixed a span{
+    display: inline-block;
+    margin-top: 0.08rem;
+    font: 0.2rem/1 'Microsoft YaHei';
+    color: #999;
+}
+
+.mask{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+    display: none;
+}
+.zg_wxtk{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -1.75rem;
+    margin-top: -2.5rem;
+    width: 3.5rem;
+    height: 4.67rem;
+    overflow: hidden;
+    z-index: 1000;
+    display: none;
+}
+.wx_cont{
+    width: 3.5rem;
+    height: 4rem;
+    background: #fff;
+    overflow: hidden;
+    font-size: 0;
+    text-align: center;
+}
+.wx_cont > b{
+    display: block;
+    font: bold 0.32rem/1 'Microsoft YaHei';
+    margin-top: 0.4rem;
+}
+.wx_cont img{
+    display: block;
+    margin: 0.3rem auto 0;
+    width: 1.61rem;
+}
+.wx_cont p{
+    font: 0.28rem/0.4rem 'Microsoft YaHei';
+    margin-top: 0.15rem;
+}
+#wx_close img{
+    display: block;
+    margin: 0 auto;
+    width: 0.4rem;
+}
+.zg_wbtk{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -1.59rem;
+    margin-top: -1.95rem;
+    width: 3.18rem;
+    height: 3.9rem;
+    background: url("../images/wbbox.png") no-repeat center;
+    -webkit-background-size: 3.18rem;
+    background-size: 3.18rem;
+    z-index: 1001;
+    overflow: hidden;
+    display: none;
+}
+.zg_wbtk em{
+    float: right;
+    width: 0.57rem;
+    height: 0.6rem;
+}
+.zg_wbtk img{
+    display: block;
+    margin: 1.2rem auto 0;
+    width: 2.41rem;
+}
+.zg_kyappo{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.235rem;
+    margin-top: -4.46rem;
+    width: 6.47rem;
+    height: 8.92rem;
+    background: url("../images/m10.png") no-repeat center;
+    -webkit-background-size: 6.47rem;
+    background-size: 6.47rem;
+    z-index: 99999;
+    display: none;
+}
+.zg_kyappo em{
+    display: block;
+    margin: 0 auto;
+    width: 0.62rem;
+    height: 0.62rem;
+}
+.zg_kyappo form{
+    width: 5.88rem;
+    margin: 2.18rem auto 0;
+    overflow: hidden;
+}
+.zg_kyappo form select{
+    display: block;
+    margin: 0.2rem 0 0 0.3rem;
+    width: 5.22rem;
+    height: 0.56rem;
+    border: 0.01rem solid #dcdcdc;
+    font-size: 0.24rem;
+    color: #999999;
+    padding-left: 0.1rem;
+}
+.zg_kyappo form input{
+    display: block;
+    margin: 0.2rem 0 0 0.3rem;
+    width: 5.22rem;
+    height: 0.56rem;
+    border: 0.01rem solid #dcdcdc;
+    font-size: 0.24rem;
+    color: #999999;
+}
+input::-webkit-input-placeholder{
+    color: #999;
+    font-size: 0.24rem;
+    padding-left: 0.12rem;
+}
+.zg_kyappo button{
+    display: block;
+    text-indent: -999rem;
+    width: 2.98rem;
+    height: 0.68rem;
+    background: url("../images/btn.png") no-repeat center;
+    -webkit-background-size: 2.98rem;
+    background-size: 2.98rem;
+    margin: 0.48rem auto;
+    border: none;
+    outline: none;
+}

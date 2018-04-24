@@ -1,0 +1,629 @@
+*{margin: 0;padding: 0;}
+html{ font-family: "Microsoft YaHei"; color:#333; font-size:100px;}
+html,body{width:100%;min-width:7.2rem;height:100%;background: #f7f7f7;}
+input {-webkit-appearance:none; }
+li{ list-style:none; }
+a{ text-decoration:none; color:#333; }
+.clear{ *zoom:1; }
+.clear:after{ content:""; display:block; clear:both; }
+.fl{float: left}
+.fr{float: right}
+
+.zg-wrap{margin: 0 auto;width: 7.2rem;}
+
+.zg_kyheader{
+    width: 7.2rem;
+    height: 0.96rem;
+    background: #fff;
+    border-bottom: 0.02rem solid #ededed;
+}
+.zg_kyheader h1{
+    float: left;
+    margin-left: 0.1rem;
+}
+.zg_kyheader h1 a{
+    display: block;
+}
+.zg_kyheader h1 a img{
+    display: block;
+    width: 2.3rem;
+    margin-top: 0.14rem;
+}
+.zg_kyhead_phone{
+    float: left;
+    margin: 0.2rem 0 0 0.62rem;
+    width: 3.36rem;
+    height: 0.54rem;
+    border: 0.02rem solid #d7d7d7;
+    border-radius:0.27rem ;
+    overflow: hidden;
+}
+.zg_kyhead_phone a:first-child{
+    float: left;
+    margin: 0.17rem 0 0 0.2rem;
+    font: 0.2rem/0.2rem 'Microsoft YaHei';
+    color: #666;
+}
+.zg_kyhead_phone a:last-child{
+    float: right;
+    margin: 0.16rem 0.16rem 0 0;
+    font: 0.2rem/0.24rem 'Microsoft YaHei';
+    color: #e60012;
+    padding-left: 0.22rem;
+    background: url("../images/kaoyan_sprite.png") no-repeat 0 0;
+    -webkit-background-size: 1rem;
+    background-size: 1rem;
+}
+.zg_kyhead_nav{
+    float: right;
+    margin: 0.34rem 0.1rem 0 0;
+    width: 0.36rem;
+    height: 0.3rem;
+    position: relative;
+    z-index: 9999;
+}
+.zg_kyhead_nav em{
+    display: block;
+    width: 0.36rem;
+    height: 0.3rem;
+    background: url("../images/kaoyan_sprite.png") no-repeat 0 -0.69rem;
+    -webkit-background-size: 1rem;
+    background-size: 1rem;
+}
+.zg_kyhead_navwrap{
+    position: absolute;
+    top: 0.64rem;
+    left: -6.74rem;
+    width: 7.2rem;
+    overflow: hidden;
+    background: #fff;
+    display: none;
+}
+.zg_kyhead_btnbox{
+    float: left;
+    width: 3.05rem;
+}
+.zg_kyhead_btnbox li{
+    height: 0.93rem;
+    color: #000;
+    border-bottom: 0.02rem solid #cfcfcf;
+    border-right: 0.02rem solid #cfcfcf;
+    background: url("../images/h_jt.png") no-repeat 2.4rem center #f1f1f1;
+    -webkit-background-size: 0.11rem;
+    background-size: 0.11rem;
+}
+.zg_kyhead_btnbox li:first-child{
+    background: url("../images/kaoyan_sprite.png") no-repeat 0.45rem -1.15rem #f1f1f1;
+    -webkit-background-size: 1rem;
+    background-size: 1rem;
+}
+.zg_kyhead_btnbox li a{
+    display: block;
+    font: 0.28rem/0.93rem 'Microsoft YaHei';
+    text-align: center;
+}
+.zg_kyhead_btnbox li.act1{
+    background: url("../images/h_jt.png") no-repeat 2.4rem center;
+    border-right: none;
+}
+.zg_kyhead_show{
+    float: right;
+    width: 4.15rem;
+    height: 5.68rem;
+    border-bottom: 0.02rem solid #ebeaea;
+    overflow-y: scroll;
+    display: none;
+}
+.zg_kyhead_show li a{
+    display: block;
+    width: 3.1rem;
+    height: 0.7rem;
+    font: 0.28rem/0.7rem 'Microsoft YaHei';
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 0.02rem solid #cfcfcf;
+}
+.zg_kyhead_show li:last-child a{
+    border-bottom: none;
+}
+
+/*banner*/
+#swiper-banner img{
+    display: block;
+    width: 7.2rem;
+}
+#swiper-banner .swiper-pagination{
+    bottom: 0.15rem;
+    font-size: 0;
+}
+#swiper-banner .swiper-pagination-bullet{
+    width: 0.06rem;
+    height: 0.06rem;
+    margin: 0 0.05rem;
+}
+#swiper-banner .swiper-pagination-bullet-active{
+    width: 0.12rem;
+    border-radius: 0.04rem;
+    background: #fff;
+}
+
+/*nav*/
+.zg_kynav{
+    width: 7.2rem;
+    height: 3.3rem;
+    background: #fff;
+    margin-top: -0.05rem;
+    border-radius: 0.08rem 0.08rem 0 0;
+    position: relative;
+    z-index: 999;
+}
+.zg_kynav ul{
+    width: 7rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.zg_kynav ul li{
+    float: left;
+    width: 1.4rem;
+    margin-top: 0.35rem;
+}
+.zg_kynav ul li a{
+    display: block;
+    font-size: 0;
+    text-align: center;
+}
+.zg_kynav ul li img{
+    display: block;
+    margin: 0 auto;
+    width: 0.76rem;
+}
+.zg_kynav ul li span{
+    display: inline-block;
+    font: 0.22rem/1 'Microsoft YaHei';
+    color: #656565;
+    margin-top: 0.16rem
+}
+.zg_kytimer{
+    margin-top: 0.16rem;
+    height: 1.95rem;
+    background: #fff;
+    -webkit-background-size: 7rem;
+    background-size: 7rem;
+    overflow: hidden;
+}
+.timer_show{
+    width: 6.6rem;
+    height: 0.82rem;
+    padding-left: 0.4rem;
+    margin-left: 0.26rem;
+    font: 0.26rem/0.82rem 'Microsoft YaHei';
+    color: #868686;
+    background: url("../images/kaoyan_sprite.png") no-repeat 0 -2.08rem;
+    -webkit-background-size: 1rem;
+    background-size: 1rem;
+    border-bottom: 1px dashed #eeeeee;
+}
+.timer_show strong{
+    font-weight: bold;
+    color: #e60012;
+}
+
+.zg_kytt{
+    height: 1rem;
+    overflow: hidden;
+}
+.zg_kytt p{
+    float: left;
+    margin: 0.2rem 0 0 0.26rem;
+}
+.zg_kytt p img{
+    display: block;
+    width: 0.67rem;
+}
+.zg_kytt_show{
+    float: left;
+    margin-left: 0.18rem;
+    margin-top: 0.2rem;
+    width: 6rem;
+    height: 1.78rem;
+    font-size: 0;
+    overflow: hidden;
+    position: relative;
+}
+.zg_kytt_show ul{
+    margin-top: -0.2rem;
+    position: absolute;
+    top: 0;
+}
+.zg_kytt_show ul li{
+    margin-top: 0.2rem;
+    height: 0.24rem;
+}
+.zg_kytt_show span{
+    float: left;
+    width: 0.48rem;
+    padding: 0.03rem 0;
+    text-align: center;
+    font: 0.16rem/0.16rem 'Microsoft YaHei';
+    color: #e62929;
+    border: 0.01rem solid #e62929;
+    border-radius: 0.04rem;
+}
+.zg_kytt_show a{
+    float: left;
+    margin-left: 0.1rem;
+    height:0.24rem;
+    font: 0.24rem/0.24rem 'Microsoft YaHei';
+}
+.zg_kytt_show ul{
+    animation:run 10s  forwards infinite  linear;
+}
+@keyframes run{
+    0%{
+        top:0;
+    }
+    20%{
+        top:0;
+    }
+    25%{
+        top:-0.44rem;
+    }
+    45%{
+        top:-0.44rem;
+    }
+    50%{
+        top:-0.88rem;
+    }
+    70%{
+        top:-0.88rem;
+    }
+    75%{
+        top:-1.32rem;
+    }
+    95%{
+        top:-1.32rem;
+    }
+    100%{
+        top:-1.76rem;
+    }
+}
+.zg_cont{
+    margin-top: 0.16rem;
+    background: #fff;
+    overflow: hidden;
+}
+.zg_kytit{
+    margin: 0.28rem 0 0 0.1rem;
+    width: 7rem;
+    height: 0.52rem;
+    background: url("../images/tit1.png") no-repeat center;
+    -webkit-background-size: 7rem;
+    background-size: 7rem;
+    overflow: hidden;
+}
+.zg_kytit b{
+    float: left;
+    margin-left: 0.6rem;
+    font: 0.3rem/0.52rem 'Microsoft YaHei';
+    color: #fff;
+}
+.zg_kytit a{
+    float: right;
+    margin-right: 0.4rem;
+    font: 0.22rem/0.52rem 'Microsoft YaHei';
+    color: #666;
+}
+.zg_kyzt{
+    width: 7rem;
+    margin: 0.3rem auto 0;
+    overflow: hidden;
+}
+.zg_kyzt a{
+    display: block;
+    float: left;
+}
+.zg_kyzt a:last-child{
+    float: right;
+}
+.zg_kyzt a img{
+    display: block;
+    width: 3.43rem;
+    height: 2.14rem;
+}
+.zg_kytj{
+    width: 7rem;
+    margin: 0 auto;
+}
+.zg_kytj p{
+    height: 0.7rem;
+    border-bottom: 0.02rem solid #eeeeee;
+    overflow: hidden;
+}
+.zg_kytj p a,.zg_kytj p span{
+    float: left;
+    font: 0.24rem/0.7rem 'Microsoft YaHei';
+    color: #666;
+    text-align: center;
+}
+.zg_kytj p span{
+    color: #eee;
+    width: 0.02rem;
+}
+.zg_kytj p a:nth-child(1){
+    width: 2.16rem;
+}
+.zg_kytj p a:nth-child(3){
+    width: 2.65rem;
+}
+.zg_kytj p a:nth-child(5){
+    width: 2.14rem;
+}
+.zg_kyxx{
+    width: 7rem;
+    margin: 0 auto;
+}
+.zg_kyxx li{
+    height: 0.72rem;
+    border-bottom: 0.02rem solid #eee;
+    overflow: hidden;
+}
+.zg_kyxx li span{
+    float: left;
+    margin: 0.2rem 0 0 0.16rem;
+    width: 0.82rem;
+    height: 0.29rem;
+    text-align: center;
+    font: 0.2rem/0.3rem 'Microsoft YaHei';
+    color: #fff;
+    background: url("../images/kaoyan_sprite.png") no-repeat 0 -3.33rem;
+    -webkit-background-size: 1rem;
+    background-size: 1rem;
+}
+.zg_kyxx li a{
+    float: left;
+    margin-left: 0.08rem;
+    font: 0.24rem/0.72rem 'Microsoft YaHei';
+}
+.zg_kytit02{
+    background: url("../images/tit2.png") no-repeat center;
+    -webkit-background-size: 7rem;
+    background-size: 7rem;
+}
+.btn_box{
+    height: 0.77rem;
+    border-bottom: 0.02rem solid #eee;
+    position: relative;
+}
+.btn_box span{
+    position: absolute;
+    width: 1.75rem;
+    height: 0.79rem;
+    text-align: center;
+    font: 0.26rem/0.78rem 'Microsoft YaHei';
+}
+.btn_box span:nth-child(2){
+    left: 1.75rem;
+}
+.btn_box span:nth-child(3){
+    left: 3.5rem;
+}
+.btn_box span:nth-child(4){
+    left: 5.25rem;
+}
+.btn_box span.act2{
+    color: #e60012;
+    background: url("../images/kaoyan_sprite.png") no-repeat 0.65rem -3.76rem;
+    -webkit-background-size: 1rem;
+    background-size: 1rem;
+}
+.show_box{
+    width: 7rem;
+    margin: 0 auto;
+    display: none;
+}
+.show_box li{
+    overflow: hidden;
+    height: 0.7rem;
+    border-bottom: 0.02rem solid #eee;
+}
+.show_box li:last-child{
+    border-bottom: none;
+}
+.show_box li a{
+    float: left;
+    margin-left: 0.16rem;
+    padding-left: 0.18rem;
+    font: 0.24rem/0.7rem 'Microsoft YaHei';
+    color: #666;
+    background: url("../images/m4.png") no-repeat left center;
+    -webkit-background-size: 0.06rem;
+    background-size: 0.06rem;
+}
+.show_box li span{
+    float: right;
+    margin-right: 0.15rem;
+    font: 0.22rem/0.7rem 'Microsoft YaHei';
+    color: #999;
+}
+.show_box li.act3 a{
+    color: #e62929;
+    background: url("../images/m4-2.png") no-repeat left center;
+    -webkit-background-size: 0.06rem;
+    background-size: 0.06rem;
+}
+.show_box li.act3 span{
+    color: #e62929;
+}
+.zg_kytit03{
+    background: url("../images/tit3.png") no-repeat center;
+    -webkit-background-size: 7rem;
+    background-size: 7rem;
+}
+.zg_kytit04{
+    background: url("../images/tit4.png") no-repeat center;
+    -webkit-background-size: 7rem;
+    background-size: 7rem;
+}
+.zg_kytit2{
+    height: 0.34rem;
+    margin: 0.3rem 0 0 0.1rem;
+    padding-left: 0.08rem;
+    font: 0.26rem/0.34rem 'Microsoft YaHei';
+    border-left: 0.06rem solid #e62929;
+}
+.zg_cont04_main1{
+    width: 7rem;
+    margin: 0.05rem auto 0;
+}
+.zg_cont04_main1 li{
+    height: 0.7rem;
+    border-bottom: 0.02rem solid #eee;
+}
+.zg_cont04_main1 li a{
+    display: block;
+    margin-left: 0.16rem;
+    padding-left: 0.18rem;
+    font: 0.24rem/0.7rem 'Microsoft YaHei';
+    color: #666;
+    background: url("../images/m4.png") no-repeat left center;
+    -webkit-background-size: 0.06rem;
+    background-size: 0.06rem;
+}
+.zg_cont04_main1 li.act4 a{
+    color: #e62929;
+    background: url("../images/m4-2.png") no-repeat left center;
+    -webkit-background-size: 0.06rem;
+    background-size: 0.06rem;
+}
+.zg_cont04_main2{
+    overflow: hidden;
+    width: 7rem;
+    margin: 0.05rem auto 0;
+}
+.zg_cont04_main2 a,.zg_cont04_main2 span{
+    float: left;
+    margin-top: 0.3rem;
+    text-align: center;
+    font: 0.24rem/1 'Microsoft YaHei';
+    color: #666;
+}
+.zg_cont04_main2 a{
+    width: 1.7rem;
+}
+.zg_cont04_main2 a:last-child{
+    color: #e62929;
+}
+.zg_cont04_main2 span{
+    width: 0.02rem;
+    color: #eeeeee;
+}
+.zg_kyinter{
+    margin-top: 0.16rem;
+    height: 2.3rem;
+    background: #fff;
+    overflow: hidden;
+}
+.zg_kyinter p:first-child{
+    float: left;
+    margin: 0.3rem 0 0 0.1rem;
+    width: 0.58rem;
+    height: 1.74rem;
+    text-indent: -999rem;
+    background: url("../images/kaoyan_sprite.png") no-repeat 0 -5.67rem;
+    -webkit-background-size: 1rem;
+    background-size: 1rem;
+}
+.inter_box{
+    float: left;
+    margin-top: 0.55rem;
+    overflow: hidden;
+}
+.inter_box a{
+    float: left;
+    width: 1.6rem;
+    text-align: center;
+    font-size: 0;
+}
+.inter_box a img{
+    display: block;
+    margin:  0 auto;
+    width: 0.8rem;
+}
+.inter_box a span{
+    display: block;
+    margin-top: 0.22rem;
+    font: 0.24rem/1 'Microsoft YaHei';
+    text-align: center;
+    color: #555555;
+}
+.zg_kynj{
+    width: 7.2rem;
+    height: 4.3rem;
+    background: #fff;
+    margin-top: 0.16rem;
+    position: relative;
+}
+.zg_kynj a{
+    position: absolute;
+}
+.zg_kynj a:nth-child(1){
+    top: 0.3rem;
+    left: 0.1rem;
+}
+.zg_kynj a:nth-child(1) img{
+    width: 2.3rem;
+}
+.zg_kynj a:nth-child(2){
+    top: 0.3rem;
+    left: 2.52rem;
+}
+.zg_kynj a:nth-child(2) img{
+    width: 2.2rem;
+}
+.zg_kynj a:nth-child(3){
+    top:0.3rem;
+    left: 4.84rem;
+}
+.zg_kynj a:nth-child(3) img{
+    width: 2.26rem;
+}
+.zg_kynj a:nth-child(4){
+    top:2.5rem;
+    left: 2.52rem;
+}
+.zg_kynj a:nth-child(4) img{
+    width: 1.42rem;
+}
+.zg_kynj a:nth-child(5){
+    top:2.5rem;
+    left: 4.05rem;
+}
+.zg_kynj a:nth-child(5) img{
+    width: 1.42rem;
+}
+.zg_kynj a:nth-child(6){
+    top:2.5rem;
+    left: 5.6rem;
+}
+.zg_kynj a:nth-child(6) img{
+    width: 1.5rem;
+}
+.zg_cont07_main{
+    width: 7rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.zg_cont07_main a,.zg_cont07_main span{
+    float: left;
+    margin-top: 0.3rem;
+    text-align: center;
+    font: 0.24rem/1 'Microsoft YaHei';
+    color: #666;
+}
+.zg_cont07_main a{
+    width: 2.38rem;
+}
+.zg_cont07_main span{
+    width: 0.02rem;
+    color: #eeeeee;
+}
