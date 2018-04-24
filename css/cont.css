@@ -263,6 +263,7 @@ ul li.on span{
     float: left;
     margin-left: 0.32rem;
     padding-left: 0.25rem;
+    width: 5.5rem;
     background: url("../images/m4.png") no-repeat left center;
     -webkit-background-size: 0.06rem;
     background-size: 0.06rem;
