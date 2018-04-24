@@ -47,6 +47,7 @@ a{ text-decoration:none; color:#333; }
 .zg_kyhead_phone a:last-child{
     float: right;
     margin: 0.16rem 0.16rem 0 0;
+    height: 0.24rem;
     font: 0.2rem/0.24rem 'Microsoft YaHei';
     color: #e60012;
     padding-left: 0.22rem;
@@ -54,78 +55,7 @@ a{ text-decoration:none; color:#333; }
     -webkit-background-size: 1rem;
     background-size: 1rem;
 }
-.zg_kyhead_nav{
-    float: right;
-    margin: 0.34rem 0.1rem 0 0;
-    width: 0.36rem;
-    height: 0.3rem;
-    position: relative;
-    z-index: 9999;
-}
-.zg_kyhead_nav em{
-    display: block;
-    width: 0.36rem;
-    height: 0.3rem;
-    background: url("../images/kaoyan_sprite.png") no-repeat 0 -0.69rem;
-    -webkit-background-size: 1rem;
-    background-size: 1rem;
-}
-.zg_kyhead_navwrap{
-    position: absolute;
-    top: 0.64rem;
-    left: -6.74rem;
-    width: 7.2rem;
-    overflow: hidden;
-    background: #fff;
-    display: none;
-}
-.zg_kyhead_btnbox{
-    float: left;
-    width: 3.05rem;
-}
-.zg_kyhead_btnbox li{
-    height: 0.93rem;
-    color: #000;
-    border-bottom: 0.02rem solid #cfcfcf;
-    border-right: 0.02rem solid #cfcfcf;
-    background: url("../images/h_jt.png") no-repeat 2.4rem center #f1f1f1;
-    -webkit-background-size: 0.11rem;
-    background-size: 0.11rem;
-}
-.zg_kyhead_btnbox li:first-child{
-    background: url("../images/kaoyan_sprite.png") no-repeat 0.45rem -1.15rem #f1f1f1;
-    -webkit-background-size: 1rem;
-    background-size: 1rem;
-}
-.zg_kyhead_btnbox li a{
-    display: block;
-    font: 0.28rem/0.93rem 'Microsoft YaHei';
-    text-align: center;
-}
-.zg_kyhead_btnbox li.act1{
-    background: url("../images/h_jt.png") no-repeat 2.4rem center;
-    border-right: none;
-}
-.zg_kyhead_show{
-    float: right;
-    width: 4.15rem;
-    height: 5.68rem;
-    border-bottom: 0.02rem solid #ebeaea;
-    overflow-y: scroll;
-    display: none;
-}
-.zg_kyhead_show li a{
-    display: block;
-    width: 3.1rem;
-    height: 0.7rem;
-    font: 0.28rem/0.7rem 'Microsoft YaHei';
-    text-align: center;
-    margin: 0 auto;
-    border-bottom: 0.02rem solid #cfcfcf;
-}
-.zg_kyhead_show li:last-child a{
-    border-bottom: none;
-}
+
 
 /*banner*/
 #swiper-banner img{
