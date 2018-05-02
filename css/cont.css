@@ -261,7 +261,6 @@ ul li.on span{
     font-size: 0;
     width: 3.73rem;
     white-space:nowrap;
-    overflow: hidden;
 }
 .cont_ad_right_tg a,.cont_ad_right_tg span{
     float: left;
