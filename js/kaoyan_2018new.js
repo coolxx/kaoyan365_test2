@@ -76,6 +76,14 @@ $(function () {
         $(this).has('em').css('backgroundImage','url("images/cont_btn.png")')
     })
 
+    $('.nav_btn2').toggle(function () {
+        $('.nav_box2').css('height','auto');
+        $(this).has('em').css('backgroundImage','url("images/cont_btn02.png")')
+    },function () {
+        $('.nav_box2').css('height','1.32rem');
+        $(this).has('em').css('backgroundImage','url("images/cont_btn.png")')
+    })
+
     // 列表页加载更多切换
     var $n=0;
     $('.show_tab span').click(function () {

@@ -91,7 +91,7 @@ a{ text-decoration:none; color:#333; }
     font: 0.24rem/0.58rem 'Microsoft YaHei';
     color: #333;
 }
-.nav_box a.act1{
+p a.act1{
     background: #e62929;
     color: #fff;
     border-radius: 0.04rem;
@@ -109,6 +109,37 @@ a{ text-decoration:none; color:#333; }
     -webkit-background-size: 0.25rem;
     background-size: 0.25rem;
 }
+
+.nav_box2{
+    margin: 0.1rem 0 0.2rem 0.1rem;
+    height: 1.32rem;
+    overflow: hidden;
+}
+
+.nav_box2 a{
+    float: left;
+    margin-top: 0.08rem;
+    overflow: hidden;
+    width: 1.16rem;
+    height: 0.58rem;
+    text-align: center;
+    font: 0.24rem/0.58rem 'Microsoft YaHei';
+    color: #333;
+}
+.nav_btn2{
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0.2rem;
+    width: 1.16rem;
+    height: 0.58rem;
+    background-image: url("../images/cont_btn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fafafa;
+    -webkit-background-size: 0.25rem;
+    background-size: 0.25rem;
+}
+
 .zg_kyshow_msg{
     background: #fff;
 }
@@ -170,6 +201,161 @@ ul li.on span{
     -webkit-background-size: 1.73rem;
     background-size: 1.73rem;
 }
+
+.zg_kycont{
+    overflow: hidden;
+    background: #fff;
+}
+.zg_kycont h1{
+    margin: 0.45rem auto 0;
+    width: 6.8rem;
+    text-align: center;
+    font: bold 0.3rem/1.3 'Microsoft YaHei';
+}
+.zg_kycont_sj{
+    overflow: hidden;
+    margin-top: 0.4rem;
+}
+.zg_kycont_sj span{
+    float: left;
+    font: 0.22rem/1 'Microsoft YaHei';
+    margin-left: 0.27rem;
+    color: #999;
+}
+.zg_kycont_sj a{
+    float: right;
+    font: 0.22rem/1 'Microsoft YaHei';
+    color: #e62929;
+    margin-right: 0.3rem;
+    padding-left: 0.3rem;
+    background: url("../images/m11.png") no-repeat left center;
+    -webkit-background-size: 0.18rem;
+    background-size: 0.18rem;
+}
+.zg_kycont_ad{
+    width: 7rem;
+    margin: 0.4rem auto 0;
+    overflow: hidden;
+}
+.zg_kycont_ad_left{
+    float: left;
+    width: 3.07rem;
+    height: 1.96rem;
+    overflow: hidden;
+}
+.zg_kycont_ad_left img{
+    display: block;
+    width: 3.07rem;
+    height: 1.96rem;
+}
+.zg_kycont_ad_right{
+    float: left;
+    width: 3.92rem;
+    height: 1.96rem;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+.cont_ad_right_tg{
+    margin-top: 0.23rem;
+    margin-left: 0.18rem;
+    font-size: 0;
+    width: 3.73rem;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.cont_ad_right_tg a,.cont_ad_right_tg span{
+    display: inline-block;
+    font: 0.18rem/1 'Microsoft YaHei';
+    color: #666;
+}
+.cont_ad_right_tg span{
+    margin: 0 0.08rem;
+}
+.cont_ad_right_QQ a{
+    display: block;
+    margin-left: 0.16rem;
+    margin-top: 0.14rem;
+    padding-left: 0.35rem;
+    font: 0.18rem/0.27rem 'Microsoft YaHei';
+    color: #666;
+    background: url("../images/qq.png") no-repeat left center;
+    -webkit-background-size: 0.24rem;
+    background-size: 0.24rem;
+}
+.zg_kycont_main{
+    width: 7rem;
+    font: 0.24rem/2 'Microsoft YaHei';
+    color: #333;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.zg_kycont_main > p{
+    margin-top:0.24rem;
+}
+.zg_kycont_main p a{
+    color: #fe3c47;
+}
+.zg_kycont_main p a:hover{
+    text-decoration: underline;
+}
+.zg_kycont_main p b,.zg_kycont_main strong{
+    font-weight:bold;
+}
+.zg_kycont_main table{
+    width:100%;
+    border:1px solid #999;
+    border-collapse: collapse;
+    margin-top:28px;
+}
+.zg_kycont_main table td{
+    border:1px solid #999;
+    padding-left:2px;
+}
+.zg_kycont_main table a{
+    color: #0000CC;
+}
+
+.zg_kycont_end{
+    margin: 0.1rem 0 0.3rem;
+    text-align: center;
+    font: 0.24rem/0.4rem 'Microsoft YaHei';
+    color: #e62929;
+}
+
+
+
+
+
+.zg_kyxgyd{
+    overflow: hidden;
+    background: #fff;
+}
+.xgyd_list{
+    margin-top: 0.33rem;
+}
+.xgyd_list li{
+    overflow: hidden;
+    width: 6.6rem;
+    height: 0.66rem;
+    border-bottom: 0.01rem solid #dbdbdb;
+    margin: 0 auto
+}
+.xgyd_list li a{
+    float: left;
+    padding-left: 0.25rem;
+    width: 6.3rem;
+    background: url("../images/m4.png") no-repeat left center;
+    -webkit-background-size: 0.06rem;
+    background-size: 0.06rem;
+    font: 0.24rem/0.66rem 'Microsoft YaHei';
+    color: #666;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+
+
 .zg_kyhot{
     overflow: hidden;
     background: #fff;
@@ -180,7 +366,7 @@ ul li.on span{
     padding-left: 0.16rem;
     border-left: 0.06rem solid #e62929;
     font: bold 0.26rem/0.34rem 'Microsoft YaHei';
-    color: #000;
+    color: #333;
 }
 .hot_list{
     margin-top: 0.33rem;
