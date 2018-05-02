@@ -260,12 +260,12 @@ ul li.on span{
     margin-left: 0.18rem;
     font-size: 0;
     width: 3.73rem;
-    height: 0.18rem;
     white-space:nowrap;
-    overflow:hidden;
+    overflow: hidden;
 }
 .cont_ad_right_tg a,.cont_ad_right_tg span{
     float: left;
+    height: 0.18rem;
     font: 0.18rem/0.18rem 'Microsoft YaHei';
     color: #666;
 }
